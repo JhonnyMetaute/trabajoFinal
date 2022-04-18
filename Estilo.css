@@ -1,0 +1,101 @@
+/*Jhonny Alexander Metaute Pérez*/
+/*C.C: 1041176975               */
+/*jhonny.metaute@udea.edu.co    */
+/***********************************************/
+
+
+/*Archivo CSS para asignar estética a la página*/
+
+
+html{ /*Fondo combinado para las 5 paginas */
+	 background: url("imagenes/fondo1.png") right repeat-y, url("imagenes/fondo.png");
+}
+
+header{ /*se centran los datos del navegador*/
+    display:flex;
+    align-items:center;
+   }
+#logo{ /*se modifica el logo por medio de un identificador*/
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  vertical-align: middle;
+}
+header h1{ /*El título principal se le asigna estilo, tamaño de fuente y margen izquierda*/
+	font-style: italic;
+    font-size: 50px;
+    margin-left: 70px;
+}
+header h2{ /*El título secundario se le asigna estilo, tamaño de fuente y margen izquierda*/
+	font-style: normal;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+nav {/*se asigna estilo a la franja del navegador*/
+	font-size: 22px;
+	font-style: italic;
+	border: 5px solid white;
+	width: 965px;
+	margin: none;
+	background-image: url("imagenes/fondo.png");
+	
+}
+nav a{ /*Cada etiqueta del navegador se espacia entre si*/
+   margin-left: 10px;
+}
+/*Las siguirntes líneas de código se utilizan para distribuir la información de la página principal*/
+.Intro{
+	margin-top: 10px;
+	width: 500px;
+	border: 5px solid white;
+	font-size: 22px;
+	float: left; /*Comando usuado para asignar a la izquierda de un elemento*/
+}
+.Leo{
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 450px;
+	border: 5px solid white;
+	float: left;
+	height: 300px;
+}
+.Objetivo{
+	margin: auto;
+	width: 965px;
+	font-size: 18px;
+    border: 5px solid white;
+    float: left;
+    text-align: center;
+}
+/***************************************************************************************************/
+
+
+footer{ /*Se modifica el footer*/
+	margin-top: 50px;
+	float: left;
+	font-size: 18px;
+	width: 965px;
+	background-color: #000000;
+}
+footer p{ 
+	text-align: center;
+	font-size: 18px;
+	color: white;
+
+}
+fieldset{/*Se modifica el tamaño del recuadro del formulario*/
+	width: 950px;
+}
+.contenido{
+	width: 950px;
+}
+table{ /*Css para las tablas*/
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+	font-size: 25px;
+}
+.contenido figure{ /*las figuras en el articulo con clase contedio, se acomodan con las tablas respectivas */
+	float: left;
+}
